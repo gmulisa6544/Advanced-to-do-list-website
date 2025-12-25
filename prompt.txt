@@ -1,0 +1,59 @@
+I want to build an advanced To-Do List web application using:
+
+HTML, CSS, and JavaScript for the frontend
+
+PHP and MySQL for the backend
+
+I am a complete beginner and I do NOT know how to write code yet.
+
+IMPORTANT INSTRUCTIONS:
+
+Build the project step by step, not all at once
+
+Explain every line of code in very simple words, like teaching a beginner
+
+After each step, wait for my confirmation before moving to the next step
+
+Follow best practices and clean folder structure
+
+Use simple, readable code (no advanced shortcuts)
+
+FEATURES REQUIRED:
+
+User registration and login (with password hashing)
+
+Add, edit, delete, and mark tasks as completed
+
+Task priority (Low, Medium, High)
+
+Task due date
+
+Task categories
+
+Search and filter tasks
+
+Data saved in MySQL database
+
+Responsive design (mobile + desktop)
+
+PROJECT STRUCTURE:
+
+First, show me:
+
+Folder structure
+
+Required tools (XAMPP, VS Code, browser)
+
+How frontend and backend connect
+
+STEP 1:
+
+Start by explaining:
+
+What this project is
+
+How the frontend talks to the backend
+
+Then create the basic HTML page for the To-Do app
+
+Do NOT move to Step 2 until I say “NEXT”.
