@@ -1,4 +1,4 @@
-// Starter JS for the To-Do app: basic API calls and UI updates
+
 console.log('To-Do starter script loaded');
 
 function fetchJSON(url, options) {
@@ -199,16 +199,7 @@ document.addEventListener('DOMContentLoaded', function(){
 		// Filters
 		['searchInput','filterPriority','filterCategory','filterCompleted'].forEach(function(id){ var el = document.getElementById(id); if (el) el.addEventListener('input', applyFiltersAndRender); });
 
-		var backupBtn = document.getElementById('backupBtn');
-		if (backupBtn) {
-			backupBtn.addEventListener('click', function(){
-				backupBtn.disabled = true;
-				fetchJSON('api/export.php?action=backup').then(function(res){
-					backupBtn.disabled = false;
-					if (res.success) { alert('Backup saved: ' + res.file); } else { alert('Backup failed'); }
-				}).catch(function(){ backupBtn.disabled = false; alert('Backup failed'); });
-			});
-		}
+
 
 		// Import JSON backup
 		var importBtn = document.getElementById('importBtn');

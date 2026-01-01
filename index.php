@@ -16,7 +16,7 @@
   <div class="container">
     <header>
       <div class="header-left">
-        <h1>Kaayyoo To-Do List</h1>
+        <h1>Kayo To-Do List</h1>
         <nav class="main-nav">
           <a href="home.php">Home</a>
           <a href="about.php">About</a>
@@ -127,7 +127,6 @@
                     <option value="0">Active</option>
                     <option value="1">Completed</option>
                   </select>
-                  <button id="backupBtn">Server Backup</button>
                 </div>
               </div>
 

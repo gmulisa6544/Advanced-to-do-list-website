@@ -35,7 +35,7 @@ if (session_status() === PHP_SESSION_NONE) { session_start(); }
 
           <h3>📬 Contact Form</h3>
           <?php if (!empty($_GET['success'])): ?>
-            <div class="notice success">Thank you — your message was received.</div>
+            <div class="notice success"></div>
           <?php elseif (!empty($_GET['error'])): ?>
             <div class="notice error"><?php echo htmlspecialchars($_GET['error']); ?></div>
           <?php endif; ?>

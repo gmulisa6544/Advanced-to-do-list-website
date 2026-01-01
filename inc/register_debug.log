@@ -14,3 +14,21 @@ Pre-check found rows: 1
 Pre-check found rows: 1
 [2025-12-25T17:56:14+01:00] POST received: username=gmulisa email=geletamulisa268@gmail.com password_len=8
 Pre-check found rows: 1
+[2026-01-01T14:42:58+01:00] POST received: username=musa email=musa@gmail.com password_len=5
+Pre-check found rows: 0
+[2026-01-01T14:43:48+01:00] POST received: username=gmulisa email=geletamulisa268@gmail.com password_len=9
+Pre-check found rows: 1
+[2026-01-01T14:44:18+01:00] POST received: username=musa email=musa@gmail.com password_len=7
+Pre-check found rows: 1
+[2026-01-01T14:45:35+01:00] POST received: username=musa email=musa@gmail.com password_len=10
+Pre-check found rows: 1
+[2026-01-01T14:47:03+01:00] POST received: username=ashu email=ashu123@gmail password_len=11
+Pre-check found rows: 0
+[2026-01-01T14:47:52+01:00] POST received: username=ashu email=ashu123@gmail.com password_len=12
+Pre-check found rows: 0
+[2026-01-01T15:02:57+01:00] POST received: username=ashu email=ashu123@gmail password_len=11
+Pre-check found rows: 1
+[2026-01-01T15:03:04+01:00] POST received: username=musa email=musa@gmail.com password_len=10
+Pre-check found rows: 1
+[2026-01-01T15:03:13+01:00] POST received: username=musa email=musa@gmail.com password_len=5
+Pre-check found rows: 1
