@@ -3,8 +3,8 @@
 An advanced, full-stack To-Do List web application built using HTML, CSS, and JavaScript for the frontend and PHP with MySQL for the backend.
 The application allows users to manage tasks efficiently with authentication, projects, priorities, and filters.
 
- Features
- User Authentication
+🚀 Features
+🔐 User Authentication
 
 User registration and login
 
@@ -12,7 +12,7 @@ Session-based authentication
 
 Secure logout
 
- Task Management
+✅ Task Management
 
 Add, edit, delete tasks
 
@@ -22,7 +22,7 @@ Set task priorities (Low, Medium, High)
 
 Add optional descriptions and due dates
 
- Projects (Categories)
+📁 Projects (Categories)
 
 Create and manage projects
 
@@ -30,7 +30,7 @@ Assign tasks to projects
 
 Sidebar project navigation (Inbox + custom projects)
 
- Filters & Search
+🔍 Filters & Search
 
 Search tasks by title or description
 
@@ -42,13 +42,13 @@ Completion status
 
 Project
 
- Data Backup
+💾 Data Backup
 
 Export tasks to JSON
 
 Import tasks from JSON backups
 
- Security
+🛡️ Security
 
 Frontend HTML escaping to prevent XSS
 
@@ -56,7 +56,7 @@ Backend input validation
 
 Prepared SQL statements to prevent SQL Injection
 
- Technologies Used
+🛠️ Technologies Used
 Frontend
 
 HTML5 – Structure
@@ -79,7 +79,7 @@ XAMPP – Local server (Apache & MySQL)
 
 Git & GitHub – Version control
 
- Project Structure
+📂 Project Structure
 my-website/
 │
 ├── api/
@@ -107,7 +107,7 @@ my-website/
 ├── README.md
 └── .gitignore
 
- How It Works (Architecture)
+⚙️ How It Works (Architecture)
 
 Frontend
 
@@ -133,7 +133,7 @@ Stores users, tasks, and categories
 
 Each task is linked to a user and optional project
 
- How to Run Locally
+🧪 How to Run Locally
 
 Install XAMPP
 
@@ -155,7 +155,7 @@ Open in browser:
 
 http://localhost/my-website
 
- What I Learned
+🎓 What I Learned
 
 Full-stack web development workflow
 
@@ -169,11 +169,14 @@ Dynamic UI rendering using JavaScript
 
 Using Git and GitHub for version control
 
+📸 Screenshots (Optional)
 
- Author
+Add screenshots here if you want
+
+👨‍💻 Author
 
 Geleta Mulisa
-Computer Science Student 
+Computer Science Student (AI)
 GitHub: gmulisa6544
 
 📜 License
