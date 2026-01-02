@@ -4,6 +4,7 @@ An advanced, full-stack To-Do List web application built using HTML, CSS, and Ja
 The application allows users to manage tasks efficiently with authentication, projects, priorities, and filters.
 
 🚀 Features
+
 🔐 User Authentication
 
 User registration and login
@@ -169,9 +170,6 @@ Dynamic UI rendering using JavaScript
 
 Using Git and GitHub for version control
 
-📸 Screenshots (Optional)
-
-Add screenshots here if you want
 
 👨‍💻 Author
 
