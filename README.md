@@ -1,42 +1,181 @@
-To-Do List App (Local development)
+📝 Advanced To-Do List Website
 
-Quick start (XAMPP + Windows):
+An advanced, full-stack To-Do List web application built using HTML, CSS, and JavaScript for the frontend and PHP with MySQL for the backend.
+The application allows users to manage tasks efficiently with authentication, projects, priorities, and filters.
 
-1. Start XAMPP and ensure Apache + MySQL are running.
-2. Place this project folder under XAMPP's `htdocs` (already in place at `c:/xampp/htdocs/my-website`).
-3. Import the database schema using phpMyAdmin or CLI:
+ Features
+ User Authentication
 
-MySQL shell (example):
+User registration and login
 
-```
-mysql -u root -p
-SOURCE C:/xampp/htdocs/my-website/sql/schema.sql;
-```
+Session-based authentication
 
-4. If your MySQL `root` has a password, update `inc/db.php` and set `$DB_PASS` accordingly.
-5. Open http://localhost/my-website/ in your browser.
-6. Register a new account and log in.
+Secure logout
 
-Backup and scheduling guidance
-- Manual backups: Use the Export JSON / CSV / SQL buttons in the app to download your data.
-- Server-side backup: Click "Server Backup" to create a timestamped JSON file in `backups/`.
-- Scheduled backups (Windows Task Scheduler): create a scheduled task that calls a script (PowerShell or curl) to hit the backup endpoint while authenticated. For example, a simple curl call (requires the site to allow non-interactive authentication or a token):
+ Task Management
 
-PowerShell (example to download JSON backup):
+Add, edit, delete tasks
 
-```powershell
-curl "http://localhost/my-website/api/export.php?action=backup" -UseBasicParsing -OutFile "C:\backups\todo-backup.json"
-```
+Mark tasks as completed
 
-Security notes
-- This project is for learning purposes. Do not expose it to the public internet without adding CSRF protection, stricter input validation, rate limiting, and HTTPS.
-- Regularly rotate DB credentials and use a non-root MySQL user in production.
+Set task priorities (Low, Medium, High)
 
-Next steps you can request
-- Add CSV import, conflict resolution UI, or scheduled server-side backup automation.
-- Add stronger security: CSRF tokens, prepared statements already used, but consider more validation and limiting file upload sizes.
+Add optional descriptions and due dates
 
-"# Advanced-to-do-list-website" 
-"# Advanced-to-do-list-website" 
-"# Advanced-to-do-list-website" 
-"# Advanced-to-do-list-website" 
+ Projects (Categories)
+
+Create and manage projects
+
+Assign tasks to projects
+
+Sidebar project navigation (Inbox + custom projects)
+
+ Filters & Search
+
+Search tasks by title or description
+
+Filter by:
+
+Priority
+
+Completion status
+
+Project
+
+ Data Backup
+
+Export tasks to JSON
+
+Import tasks from JSON backups
+
+ Security
+
+Frontend HTML escaping to prevent XSS
+
+Backend input validation
+
+Prepared SQL statements to prevent SQL Injection
+
+ Technologies Used
+Frontend
+
+HTML5 – Structure
+
+CSS3 – Styling and layout
+
+JavaScript (Vanilla) – Dynamic UI, API calls, DOM manipulation
+
+Backend
+
+PHP – Server-side logic
+
+MySQL – Database
+
+PDO / MySQLi – Prepared statements
+
+Tools
+
+XAMPP – Local server (Apache & MySQL)
+
+Git & GitHub – Version control
+
+ Project Structure
+my-website/
+│
+├── api/
+│   ├── tasks.php
+│   └── import.php
+│
+├── inc/
+│   ├── db.php
+│   ├── auth.php
+│   └── register_debug.log
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── app.js
+│
+├── backups/
+│   └── todo-backup-*.json
+│
+├── index.php
+├── login.php
+├── register.php
+├── logout.php
+├── README.md
+└── .gitignore
+
+ How It Works (Architecture)
+
+Frontend
+
+JavaScript sends requests using fetch() to PHP APIs
+
+UI is updated dynamically without page reload
+
+Tasks are rendered dynamically using DOM manipulation
+
+Backend
+
+PHP receives requests from frontend
+
+Input is validated and sanitized
+
+Database operations are done using prepared statements
+
+Responses are returned as JSON
+
+Database
+
+Stores users, tasks, and categories
+
+Each task is linked to a user and optional project
+
+ How to Run Locally
+
+Install XAMPP
+
+Move the project to:
+
+C:\xampp\htdocs\my-website
+
+
+Start Apache and MySQL
+
+Create a MySQL database and import required tables
+
+Update database credentials in:
+
+inc/db.php
+
+
+Open in browser:
+
+http://localhost/my-website
+
+ What I Learned
+
+Full-stack web development workflow
+
+Secure authentication and session handling
+
+REST-like API communication
+
+Preventing XSS and SQL Injection
+
+Dynamic UI rendering using JavaScript
+
+Using Git and GitHub for version control
+
+
+ Author
+
+Geleta Mulisa
+Computer Science Student 
+GitHub: gmulisa6544
+
+📜 License
+
+This project is for educational purposes.
